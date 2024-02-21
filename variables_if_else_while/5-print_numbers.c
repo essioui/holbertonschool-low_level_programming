@@ -1,11 +1,20 @@
 #include <stdio.h>
-
+/**
+ * main - Prints the numbers less 10.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	int i;
-	for (i=0 ; i<10 ; i++)
-	{
-		printf("%d\n", i);
-	}
-	return (0);
+int i;
+for (i=0 ; i<10 ; i++)
+{
+printf("%d", i);
+if (i < 9)
+{
+printf(", ");
+}
+}
+printf("\n");
+return (0);
 }

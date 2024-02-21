@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/*
+ * n is random number
+ * we device n at 10 for take last_digit
+ *printf 
+ * */
 int main(void)
 {
 	int n, last_digit;

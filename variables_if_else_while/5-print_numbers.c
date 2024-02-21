@@ -10,10 +10,11 @@ int i;
 for (i = 0 ; i < 10 ; i++)
 {
 printf("%d", i);
-if (i <= 9)
+if (i < 9)
 {
 printf(", ");
 }
+i++
 }
 printf("\n");
 return (0);

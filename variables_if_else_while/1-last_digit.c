@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * n is random number
- * we device n at 10 for take last_digit
- *printf
+/**
+ * main - program out last digit
+ *
+ * Return: Always (Success)
  */
 int main(void)
 {

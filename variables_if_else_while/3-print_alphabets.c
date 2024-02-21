@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - changes word upper to lowercase
+ * main - use thre putchar
  *
  * Return: Always (Success)
  */

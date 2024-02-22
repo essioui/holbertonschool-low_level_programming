@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - islower
+ *_islower(int c) - islower
  *@c: int
  * Return
  */

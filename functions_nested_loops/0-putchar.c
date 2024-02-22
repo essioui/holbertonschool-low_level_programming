@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - writes the character c to stdout
+ * main - use thre putchar
  *
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always (Success)
  */
 int main(void)
 {

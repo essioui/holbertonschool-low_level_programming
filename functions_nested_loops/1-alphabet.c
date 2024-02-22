@@ -3,7 +3,7 @@
  * print_alphabet - use void_alphabet
  *
  * Return
- * */
+ */
 void print_alphabet(void)
 {
 char i;

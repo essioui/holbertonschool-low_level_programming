@@ -7,14 +7,14 @@
 int main(void)
 {
 int i;
-int j = ',';
 for (i = 0 ; i < 10 ; i++)
 {
 putchar(i + '0');
-}
-for (j = 0 ; j < 9 ; j++)
+if (i != 9)
 {
-putchar(j);
+putchar(',');
+putchar(' ');
+}
 }
 putchar ('\n');
 return (0);

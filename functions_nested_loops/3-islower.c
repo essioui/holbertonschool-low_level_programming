@@ -1,9 +1,9 @@
 #include "main.h"
 #include <ctype.h>
 /**
- *_islower(int c) - islower
+ *_islower - islower
  *@c: int
- * Return
+ * Return: always 0.
  */
 int _islower(int c)
 {

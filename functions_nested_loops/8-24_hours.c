@@ -1,8 +1,8 @@
 #include "main.h"
 /*
- * jack_bauer - function
+ * jack_bauer - function time
  * Return: m++ puis h++
- * */
+ **/
 void jack_bauer(void)
 {
 int h, m;

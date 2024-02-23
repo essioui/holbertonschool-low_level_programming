@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - print
- * @c: int
- * Return: 1 is greather, 0 is egal and -1 is less of zero.
+ *print_sign - print
+ *@n: int
+ *Return: 1 is greather, 0 is egal and -1 is less of zero.
  */
 int print_sign(int n)
 {

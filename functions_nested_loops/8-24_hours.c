@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * jack_bauer - print time
+ * jack_bauer - Print time
  * Return: m++ puis h++
  */
 void jack_bauer(void)

@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- *jack_bauer - Print 
+ *jack_bauer - Print
  */
 void jack_bauer(void)
 {

@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- *_abs - function
+ *_abs(int) - function
  * Return: negatif or positif num
  */
 int _abs(int i)

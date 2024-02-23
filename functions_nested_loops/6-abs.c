@@ -1,8 +1,7 @@
 #include "main.h"
-/**
- *_abs - absolut number
- * @n: int
- * Return: -i opposite num and i positive num
+/*
+ * _abs: 6-abs.c
+ * Return: negatif or positif num
  */
 int _abs(int i)
 {

@@ -2,7 +2,7 @@
 /*
  * jack_bauer - Calc time
  * Return: m++ puis h++
- **/
+ */
 void jack_bauer(void)
 {
 int h, m;

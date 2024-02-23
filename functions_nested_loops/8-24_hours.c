@@ -1,6 +1,7 @@
 #include "main.h"
 /*
- * jack_bauer - Print
+ * jack_bauer: 8-24_hours.c
+ * Return: 0.
  */
 void jack_bauer(void)
 {

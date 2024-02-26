@@ -1,8 +1,6 @@
 #include "main.h"
 /*
  * print_numbers - function print numbers 1 to 9 in one line.
- *
- * Return: return numbers
  **/
 void print_numbers(void)
 {

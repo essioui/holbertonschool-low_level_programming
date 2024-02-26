@@ -1,9 +1,9 @@
 #include "main.h"
-/*
- * _isdigit - function for checks digit
- * @c: entier
- * Return: 0 or 1
- **/
+/**
+*_isdigit - function
+*@c: entier
+*Return: 1 if uppercase 0 if no
+*/
 
 int _isdigit(int c)
 {

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_diagonal - function print n space than \
+ * print_diagonal - function print n space than 
  * @n: entier
  */
 void print_diagonal(int n)

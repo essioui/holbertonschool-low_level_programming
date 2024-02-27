@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_diagonal - function print n space than 
- * @n: entier
+ * print_diagonal - function print n space than
+ * @n: entier.
  */
 void print_diagonal(int n)
 {

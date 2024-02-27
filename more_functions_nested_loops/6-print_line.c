@@ -1,6 +1,7 @@
 #include "main.h"
 /*
  * print_line - function for change n of _
+ * @n: entier
  **/
 void print_line(int n)
 {

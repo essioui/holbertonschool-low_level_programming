@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  *_strcpy - function for cpoy string in other
- @dest: pointer
- @src: pointer
- Return: dest string
+ * @dest: pointer
+ * @src: pointer
+ * Return: dest string
 */
 char *_strcpy(char *dest, char *src)
 {

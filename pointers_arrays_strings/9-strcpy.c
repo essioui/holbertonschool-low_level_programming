@@ -3,7 +3,7 @@
  *_strcpy - function for cpoy string in other
  @dest: pointer
  @src: pointer
- Return: dest string 
+ Return: dest string
 */
 char *_strcpy(char *dest, char *src)
 {

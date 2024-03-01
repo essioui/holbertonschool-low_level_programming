@@ -12,15 +12,14 @@ for (; *s != '\0'; s++)
 {
 if (*s == '-')
 i *= -1;
-else
 if (*s >= '0' && *s <= '9')
-break;
-}
-while (*s >= '0' && *s <= '9')
 {
 j *= 10;
 j += *s - 48;
 s++;
+}
+if (s[i] == ';')
+break;
 }
 n = j *i;
 return(n);

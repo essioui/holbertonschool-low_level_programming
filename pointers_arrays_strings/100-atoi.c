@@ -5,17 +5,17 @@
 */
 int _atoi(char *s)
 {
-int i = 1;
-int j = 0;
+int i = 0;
+int j = 1;
 unsigned int n = 0;
-for (; *s != '\0'; s++)
+for (; s[i] != '\0'; s++)
 {
-if (*s == '-')
-i *= -1;
-if (*s >= '0' && *s <= '9')
+if (s[i] == '-')
+j *= -1;
+if (s[i] >= '0' && s[i] <= '9')
 {
-j *= 10;
-j += *s - 48;
+n *= 10;
+n += s[i] - 48;
 s++;
 }
 if (s[i] == ';')

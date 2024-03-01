@@ -2,6 +2,7 @@
 /**
  * _atoi - function transfer ASCII to integer
  * @s: pointer
+ * Return: n
 */
 int _atoi(char *s)
 {
@@ -22,5 +23,5 @@ if (s[i] == ';')
 break;
 }
 n = n *j;
-return(n);
+return (n);
 }

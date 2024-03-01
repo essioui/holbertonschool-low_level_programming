@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * _toi - function transfer ASCII to integer
+ * _atoi - function transfer ASCII to integer
  * @s: pointer
- * Return: n
 */
 int _atoi(char *s)
 {

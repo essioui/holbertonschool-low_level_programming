@@ -2,7 +2,7 @@
 /**
  * _toi - function transfer ASCII to integer
  * @s: pointer
- * Return: return integer
+ * Return: n
 */
 int _atoi(char *s)
 {
@@ -20,7 +20,7 @@ break;
 while (*s >= '0' && *s <= '9')
 {
 j *= 10;
-j += *s - 48; // 48 en code ASCII equivaut '0'
+j += *s - 48;
 s++;
 }
 if (i == -1)

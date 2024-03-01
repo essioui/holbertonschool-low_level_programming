@@ -22,9 +22,6 @@ j *= 10;
 j += *s - 48;
 s++;
 }
-if (i == -1)
-n = -j;
-else
-n = j;
+n = j *i;
 return(n);
 }

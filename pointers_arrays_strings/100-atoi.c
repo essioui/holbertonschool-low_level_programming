@@ -21,6 +21,6 @@ n += s[i] - 48;
 if (s[i] == ';')
 break;
 }
-n = j *i;
+n = n *j;
 return(n);
 }

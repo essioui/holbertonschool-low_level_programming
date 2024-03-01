@@ -5,10 +5,10 @@
 */
 int _atoi(char *s)
 {
-int i = 0;
+int i;
 int j = 1;
 unsigned int n = 0;
-for (; s[i] != '\0'; s++)
+for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == '-')
 j *= -1;
@@ -16,7 +16,7 @@ if (s[i] >= '0' && s[i] <= '9')
 {
 n *= 10;
 n += s[i] - 48;
-i++;
+
 }
 if (s[i] == ';')
 break;

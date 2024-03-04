@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * 
+ * _strspn - the length of a prefix substring.
+ * @s: string
+ * @accept: string
+ * Return: j
 */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -15,9 +18,11 @@ if (accept[i] == *s)
 j++;
 break;
 }
-else if ((accept[i + 1]) == '\0')
+else 
+if ((accept[i + 1]) == '\0')
 return (j);
 }
+
 s++;
 }
 return (j);

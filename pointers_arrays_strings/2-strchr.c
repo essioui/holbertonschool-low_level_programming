@@ -14,5 +14,5 @@ if (s[i] == c)
 break;
 i++;
 }
-return ((s[i] || c == '\0') ? (s + i) : "nil");
+return ((s[i] || c == '\0') ? s + i : "nil");
 }

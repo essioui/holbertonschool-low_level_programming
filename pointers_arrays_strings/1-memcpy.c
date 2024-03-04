@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_memcpy - copy number from to string with n 
+ * *_memcpy - copy number from to string with n
  * @dest: string
  * @src: string
  * @n: integer

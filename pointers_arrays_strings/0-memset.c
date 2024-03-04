@@ -15,5 +15,5 @@ while (i < n)
 *s++ = b;
 i++;
 }
-return ('p');
+return (p[i]);
 }

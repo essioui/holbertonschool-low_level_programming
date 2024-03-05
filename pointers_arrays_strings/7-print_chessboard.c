@@ -1,9 +1,11 @@
 #include "main.h"
 /**
-*void print_chessboard - function print chessboard
-*@a: string
-*Description: prints the chessboard for prints the case
-*/
+ * print_chessboard - print a chessboard.
+ * @a: string
+ *
+ *
+ * Return: chessboard.
+ */
 void print_chessboard(char (*a)[8])
 {
 	int i, j;

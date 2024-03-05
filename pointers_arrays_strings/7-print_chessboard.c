@@ -2,7 +2,7 @@
 /**
 *void print_chessboard - function print chessboard
 *@a: string
-*@8: entier 
+*@8: entier
 */
 void print_chessboard(char (*a)[8])
 {

@@ -2,6 +2,7 @@
 /**
 *void print_chessboard - function print chessboard
 *@a: string
+*Description: prints the chessboard.
 */
 void print_chessboard(char (*a)[8])
 {

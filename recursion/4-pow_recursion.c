@@ -1,6 +1,10 @@
 #include "main.h"
 /**
- * 
+ *_pow_recursion -function calcul x power y
+ *@x: integer
+ *@y: intger
+ * Return: result after calc x power y
+ */
 */
 int _pow_recursion(int x, int y)
 {

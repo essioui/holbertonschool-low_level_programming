@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * other - second function for output number
-
  * @i: integer
  * @j: integer
  * Return: 1 or 0

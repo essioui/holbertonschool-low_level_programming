@@ -1,21 +1,25 @@
 #include "main.h"
 /**
  * other - second function for output number
- * @n: integer
+
  * @i: integer
  * @j: integer
  * Return: 1 or 0
 */
 
 
-int other(int n, int i, int j)
+int other(int a, int b)
 {
-if ((n % i == 0 && i <= j) || n < 0 || n == 1)
-return (0);
-else if (n % i != 0 && i <= j)
-return (other(n, i + 1, j));
+if ((a <= 1) || (a != b && a % b == 0))
+{
+    return (0);
+}
 else
-return (1);
+if (a == b)
+{
+    return (1);
+}
+return (other(a, b +1));
 }
 
 /**
@@ -24,5 +28,5 @@ return (1);
 */
 int is_prime_number(int n)
 {
-return (other(n, 2, n / 2));
+return (other(n, 2));
 }

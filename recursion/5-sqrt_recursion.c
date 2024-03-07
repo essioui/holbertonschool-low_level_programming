@@ -7,16 +7,16 @@
 */
 int sqrt_1(int a, int b)
 {
-    if (b * b == a)
-    {
-        return (b);
-    }
-    else
-    if (b * b > a)
-    {
-        return (-1);
-    }
-    return (sqrt_1(a, b + 1));
+if (b * b == a)
+{
+return (b);
+}
+else
+if (b * b > a)
+{
+return (-1);
+}
+return (sqrt_1(a, b + 1));
 }
 /**
  * _sqrt_recursion - function for sqrt

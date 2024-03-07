@@ -1,11 +1,10 @@
 #include "main.h"
 /**
  * other - second function for output number
- * @i: integer
- * @j: integer
+ * @a: integer
+ * @b: integer
  * Return: 1 or 0
 */
-
 
 int other(int a, int b)
 {
@@ -24,6 +23,7 @@ return (other(a, b + 1));
 /**
  *is_prime_number - function for prime number
  *@n: integer
+ *Return: function have prime number
 */
 int is_prime_number(int n)
 {

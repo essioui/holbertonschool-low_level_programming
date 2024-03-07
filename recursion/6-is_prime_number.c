@@ -20,7 +20,7 @@ return (1);
 
 /**
  *is_prime_number - function for prime number
- @n: integer
+ @n:prime unmber
  Return: the number prime
 */
 int is_prime_number(int n)

@@ -19,7 +19,7 @@ if (a == b)
 {
     return (1);
 }
-return (other(a, b +1));
+return (other(a, b + 1));
 }
 
 /**

@@ -12,12 +12,12 @@ int other(int a, int b)
 {
 if ((a <= 1) || (a != b && a % b == 0))
 {
-    return (0);
+return (0);
 }
 else
 if (a == b)
 {
-    return (1);
+return (1);
 }
 return (other(a, b + 1));
 }

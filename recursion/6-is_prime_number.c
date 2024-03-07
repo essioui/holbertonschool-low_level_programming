@@ -19,7 +19,8 @@ return (1);
 }
 
 /**
- * is_prime_number - function for prime number
+ *is_prime_number - function for prime number
+ *@n: integer
 */
 int is_prime_number(int n)
 {

@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * other - second function for output number
+ * is_prime_number - function for prime number
  * @n: integer
  * @i: integer
  * @j: integer
@@ -18,11 +19,7 @@ else
 return (1);
 }
 
-/**
- *is_prime_number - function for prime number
- @n:prime unmber
- Return: the number prime
-*/
+
 int is_prime_number(int n)
 {
 return (other(n, 2, n / 2));

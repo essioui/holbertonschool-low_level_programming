@@ -4,7 +4,7 @@
 /**
  *main - adds positive numbers
  *@argc: length string
- *@arcv: string
+ *@argv: string
  *Return: 0 or 1
 */
 int main(int argc, char *argv[])

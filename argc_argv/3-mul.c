@@ -17,6 +17,6 @@ return (1);
 }
 i = atoi(argv[1]); /*function transfer from ACCII to integer*/
 j = atoi(argv[2]); /*function transfer from ASCII to integer*/
-printf("%d\n", i * j);
+printf("%d\n", i *j);
 return (0);
 }

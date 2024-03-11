@@ -19,8 +19,7 @@ if (ch == NULL)
 return (NULL);
 for (j = 0; str[j]; j++)
 {
-    ch[j] = str[i];
+ch[j] = str[i];
 }
 return (ch);
-
 }

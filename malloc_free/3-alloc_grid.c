@@ -1,36 +1,42 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * 
 */
 int **alloc_grid(int width, int height)
 {
-int **grid, i, j;
+int **grid;
+int i, j;
 
-if (width  <= 0 || height <= 0)
-return (NULL);
+if (width <=0 || height <= 0)
+{
+return NULL;
+}
 
-grid = malloc(sizeof(int) * height);
+grid = (int **)malloc(width * sizeof(int));
+
 if (grid == NULL)
-return (NULL);
+{
+return NULL;
+}
 
 for (i = 0; i < height; i++)
 {
-grid[i] = (int *)malloc(sizeof(int) * width);
-if (grid[i] == NULL)
+grid[i] = (int *)malloc(width * sizeof(int));
+if ((grid[i] == NULL))
 {
-for (; i >= 0; i--)
+for (j = 0; j < i; j++)
 {
-free(grid[i]);
+free(grid[j]);
+}
 free(grid);
-return (NULL);
+return NULL;
 }
-}
-}
-for (i = 0; i < height; i++)
-for (j = 0; i < width; j++)
+for (j = 0; j < width; j++)
 {
-    grid[i][j] = 0;
+grid[i][j] = 0;
+}
 }
 return (grid);
 }

@@ -28,8 +28,8 @@ return (NULL);
 }
 }
 for (i = 0; i < height; i++)
-for (j = 0; i < width; j++)
 {
+for (j = 0; i < width; j++)
     grid[i][j] = 0;
 }
 return (grid);

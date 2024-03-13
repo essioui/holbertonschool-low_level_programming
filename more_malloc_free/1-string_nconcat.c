@@ -41,7 +41,7 @@ length = length1 + n;
 s = malloc((length + 1) * sizeof(char));
 if (s == NULL)
 {
-return NULL;
+return (NULL);
 }
 else
 {

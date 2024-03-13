@@ -40,7 +40,9 @@ else
 length = length1 + n;
 s = malloc((length + 1) * sizeof(char));
 if (s == NULL)
-return NULL;
+{
+return NULL
+}
 else{
 for (i = 0; i < length1; i++)
 {

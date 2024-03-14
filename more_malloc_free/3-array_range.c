@@ -14,17 +14,16 @@ int i, range;
 if (min > max)
 return (NULL);
 
-range = max - min +1;
+range = max - min + 1;
 s = malloc(sizeof(*s) * range);
 if (s == NULL)
 return (NULL);
-
 i = 0;
-while(i < range)
+while (i < range)
 {
-    s[i] = min;
-    min++;
-    i++;
+s[i] = min;
+min++;
+i++;
 }
 return (s);
 }

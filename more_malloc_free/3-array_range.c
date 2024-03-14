@@ -22,7 +22,8 @@ return (NULL);
 i = 0;
 while(i < range)
 {
-    s[i] = min;;
+    s[i] = min;
+    min++;
     i++;
 }
 return (s);

@@ -1,12 +1,11 @@
 #include "dog.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * init_dog - initializes a variable of type struct dog
- * @d: struct name
- * @name: field name of struct
- * @age: field age of struct
- * @owner: field owner of struct
- * Return: None
+ * @d: struct
+ * @name: char
+ * @age: float
+ * @owner: char
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
@@ -17,4 +16,3 @@ d->age = age;
 d->owner = owner;
 }
 }
-

@@ -3,7 +3,7 @@
  * int_index - function
  * @array: pointer to an integer array
  * @size: size of the array
- * @cmp: pointer to a function 
+ * @cmp: pointer to a function
  * Return: 0 or index of arrays
 */
 int int_index(int *array, int size, int (*cmp)(int))

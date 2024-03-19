@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 /*This is the main function of the program. It takes command-line arguments*/
 {
 
-int num1, num2, calc;
+int num1, num2;
 /*These variables are declared to hold the two numbers and the result of the operation.*/
 char operator;
 /*This variable is declared to hold the arithmetic operator.*/

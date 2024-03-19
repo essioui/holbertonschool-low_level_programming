@@ -1,6 +1,7 @@
 #include "function_pointers.h"
 #include "3-calc.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * 
 */
@@ -16,7 +17,8 @@ int (*f)(int a, int b);
 /*This is a function pointer named f that points to a function which takes two integers as arguments and returns an integer.*/
 if (argc != 4) 
 {
-printf("Error\n"); exit(98);
+printf("Error\n");
+exit(98);
 }
 /*This checks if the number of arguments passed is not equal to 4. If so, it prints an error message "Error" and exits the program with status 98.*/
 

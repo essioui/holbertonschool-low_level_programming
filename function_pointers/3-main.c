@@ -1,47 +1,46 @@
-#include "function_pointers.h"
-#include "3-calc.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include "3-calc.h"
 /**
- * 
-*/
-int main(int argc, char *argv[])
-/*This is the main function of the program. It takes command-line arguments*/
-{
+ * main - entry point for function
+ * @argc: arg counter, number of args
+ * @argv: array of pointers to args
+ *
+ * Return: 0 on success, 98 on failure
+ */
 
-int num1, num2;
-/*These variables are declared to hold the two numbers and the result of the operation.*/
+int main(int argc, char *argv[])
+{
+int num1, num2, sum;
 char operator;
-/*This variable is declared to hold the arithmetic operator.*/
-int (*f)(int a, int b);
-/*This is a function pointer named f that points to a function which takes two integers as arguments and returns an integer.*/
-if (argc != 4) 
+int (*f)(int, int);
+
+
+if (argc != 4)
 {
 printf("Error\n");
-exit(98);
+exit (98);
 }
-/*This checks if the number of arguments passed is not equal to 4. If so, it prints an error message "Error" and exits the program with status 98.*/
 
 num1 = atoi(argv[1]);
 num2 = atoi(argv[3]);
-/*These lines convert the first and third command-line arguments (strings representing numbers) to integers and assign them to num1 and num2 respectively.*/
+
 f = get_op_func(argv[2]);
-/*This line calls a function get_op_func which takes the arithmetic operator as a string and returns a function pointer to the corresponding arithmetic
-operation function (add, sub, mul, div, or mod). The returned function pointer is assigned to f.*/
 if (f == NULL)
 {
-printf("Error\n"); exit(99);
-}
-/*This checks if the function pointer f is NULL, which means that the operator provided is invalid. If so, it prints an error message
-"Error" and exits the program with status 99.*/
-operator = *argv[2];
-/*This line assigns the first character of the second command-line argument (which is the arithmetic operator) to the variable operator.*/
-if ((operator == '/' || operator == '%') && num2 == 0)
-{
 printf("Error\n");
-exit(100);
-/*This checks if the operator is division (/) or modulus (%) and if the second number is zero. If both conditions are true, it prints an error message
-"Error" and exits the program with status 100, indicating an attempt to divide by zero.*/
-}
+exit (99);
 }
 
+operator = *argv[2];
+if (operator == '/' || operator == '%' && num2 == 0)
+{
+printf("Error\n");
+exit (100);
+}
+
+sum = f(num1, num2);
+printf("%d", sum);
+return (0);
+
+}

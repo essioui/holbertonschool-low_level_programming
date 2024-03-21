@@ -17,7 +17,7 @@ int sum = 0;
 va_list count;
 
 if (n == 0)
-return(0);     
+return (0);
 
 
 
@@ -29,5 +29,4 @@ sum += va_arg(count, int);
 }
 va_end(count);
 return (sum);
-    
 }

@@ -3,7 +3,11 @@
 #include "3-calc.h"
 
 
-
+/**
+ * *get_op_func - structure
+ * @s: arrays
+ * Return: null or operator symbol
+*/
 int (*get_op_func(char *s))(int, int)
 {
 

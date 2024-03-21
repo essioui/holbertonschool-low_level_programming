@@ -19,7 +19,7 @@ int (*f)(int, int);
 if (argc != 4)
 {
 printf("Error\n");
-exit (98);
+exit(98);
 }
 
 num1 = atoi(argv[1]);
@@ -29,14 +29,14 @@ f = get_op_func(argv[2]);
 if (f == NULL)
 {
 printf("Error\n");
-exit (99);
+exit(99);
 }
 
 operator = *argv[2];
 if ((operator == '/' || operator == '%') && num2 == 0)
 {
 printf("Error\n");
-exit (100);
+exit(100);
 }
 
 sum = f(num1, num2);

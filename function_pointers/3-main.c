@@ -40,7 +40,7 @@ exit (100);
 }
 
 sum = f(num1, num2);
-printf("%d", sum);
+printf("%d\n", sum);
 return (0);
 
 }

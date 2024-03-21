@@ -33,7 +33,7 @@ exit (99);
 }
 
 operator = *argv[2];
-if (operator == '/' || operator == '%' && num2 == 0)
+if ((operator == '/' || operator == '%') && num2 == 0)
 {
 printf("Error\n");
 exit (100);

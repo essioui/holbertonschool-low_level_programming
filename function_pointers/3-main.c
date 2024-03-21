@@ -15,7 +15,6 @@ int num1, num2, sum;
 char operator;
 int (*f)(int, int);
 
-
 if (argc != 4)
 {
 printf("Error\n");

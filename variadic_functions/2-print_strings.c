@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_numbers - print string
+ * print_strings - print string
  * @separator: string
  * @n: number of args
  */

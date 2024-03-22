@@ -16,15 +16,11 @@ char *str;
 va_start(count, n);
 for (i = 0; i < n; i++)
 {
-str = va_arg(count, char*);
+str = va_arg(count, char *);
 if (str == NULL)
-{
 printf("nil");
-}
-if (str != NULL)
-{
+else
 printf("%s", str);
-}
 if (i != (n - 1) && separator != NULL)
 printf("%s", separator);
 }

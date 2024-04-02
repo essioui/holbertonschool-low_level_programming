@@ -2,6 +2,7 @@
 /**
  * free_dlistint - function for free a dlistint_t list.
  * @h: pointer of linked lists
+ * Return: void
 */
 void free_dlistint(dlistint_t *head)
 {

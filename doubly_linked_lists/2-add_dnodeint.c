@@ -1,6 +1,9 @@
 #include "lists.h"
 /**
- * 
+ * add_dnodeint - function adds a new node at the beginning 
+ * @head: head of the list
+ * @n: value of element
+ * Return:  the address of the new element
 */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {

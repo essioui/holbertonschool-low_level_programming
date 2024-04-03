@@ -1,32 +1,31 @@
 #include "lists.h"
 /**
- * get_dnodeint_at_index - function print the nth node of a dlistint_t linked list.
+ * get_dnodeint_at_index - function print the nth node of list.
  * @head: header ponter
  * @index: length of lists
  * Return: position of nth node
 */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-    unsigned int i;
-    if (head == NULL)
-    {
-        return (NULL);
-    }
+unsigned int i;
+if (head == NULL)
+{
+return (NULL);
+}
 
-    while (head->prev != NULL)
-    {
-        head = head->prev;
-    }
-    i = 0;
+while (head->prev != NULL)
+{
+head = head->prev;
+}
+i = 0;
 
-    while (head != NULL)
-    {
-        if (i == index)
-        break;
+while (head != NULL)
+{
+if (i == index)
+break;
 
-        head = head->next;
-        i++;
-        
-    }
-    return (head);
+head = head->next;
+i++;        
+}
+return (head);
 }

@@ -1,6 +1,8 @@
 #include "lists.h"
 /**
- * 
+ * sum_dlistint - print the sum of all the data (n)
+ * @head: pointer head
+ * Return: the sum
 */
 int sum_dlistint(dlistint_t *head)
 {

@@ -25,7 +25,7 @@ if (i == index)
 break;
 
 head = head->next;
-i++;        
+i++;
 }
 return (head);
 }

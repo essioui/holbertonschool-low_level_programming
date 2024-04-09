@@ -15,7 +15,7 @@ ssize_t nb;
 if (filename == NULL)
 return (-1);
 
-file = open(filename, O_CREAT | O_WRONLY | O_TRUNC);
+file = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 
 if (file == -1)
 return (-1);

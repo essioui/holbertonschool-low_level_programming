@@ -2,9 +2,8 @@
  * File: 3-cp.c
  * Auth: Brennan D Baraban
  */
-
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 
 char *create_buffer(char *file);
